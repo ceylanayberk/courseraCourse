@@ -1,6 +1,57 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
 body{
 	font-size: 16px;
 	color: black;
-	background-color: lightgray;
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
+.navbar{
+	background: lightblue;
+	min-height: 70px;
+	max-height: 70px;
+	position: relative;
+}
+.navbar-brand{
+	margin: 0px;
+}
+.navbar h1{
+	float: left;
+}
+.brand-logo{
+	margin: 0px 0px 0px 20px;
+}
+
+.navbar button{
+	border: 1px solid black;
+	background-color: lightgray;
+	width: 70px;
+	height: 30px;	
+	clear: left;
+	position: absolute;
+	right: 20px;
+
+}
+.icon-bar{
+	color: red;
+}
+.jumbotron{
+	clear: right;
+	background-color: lightgray;
+	min-height: 94vh;
+
+}
+.box-padding{
+	padding: 30px;
+}
+.inners{
+	background-color: gray;
+	padding: 10px;
+}
+.chicken{
+	margin-top: 1em;
+}
+.navbar-toggle .icon-bar{ 
+	background-color: #fff;}
