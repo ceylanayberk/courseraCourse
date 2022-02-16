@@ -1,57 +1,75 @@
-*{
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 0px;
+@font-face
+{
+	font-family: pointsoft;
+	src: url("Point Soft Semi Bold.otf") ;
 }
-body{
-	font-size: 16px;
-	color: black;
-	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-}
-.navbar{
-	background: lightblue;
-	min-height: 70px;
-	max-height: 70px;
-	position: relative;
-}
-.navbar-brand{
-	margin: 0px;
-}
-.navbar h1{
-	float: left;
-}
-.brand-logo{
-	margin: 0px 0px 0px 20px;
+body {
+  font-size: 16px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color:white;
+  font-family: pointsoft;
 }
 
-.navbar button{
-	border: 1px solid black;
-	background-color: lightgray;
-	width: 70px;
-	height: 30px;	
-	clear: left;
-	position: absolute;
-	right: 20px;
+#header-nav {
+  background-color:#999999;
+  border-radius: 0;
+  border: 1px;
+  min-height: 70px;
+}
 
+.navbar-brand h1 {
+  font-family: pointsoft;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
 }
-.icon-bar{
-	color: red;
-}
-.jumbotron{
-	clear: right;
-	background-color: lightgray;
-	min-height: 94vh;
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
-.box-padding{
-	padding: 30px;
+
+#nav-list a {
+  color:black;
+  font-weight: bold;
 }
-.inners{
-	background-color: gray;
+
+#nav-list a:hover {
+  background:whitesmoke;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: auto;
+  padding: 20px 40px 20px 40px;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: bold;
+}
+.common-back{
 	padding: 10px;
+	background-color: lightgray;
 }
-.chicken{
-	margin-top: 1em;
-}
-.navbar-toggle .icon-bar{ 
-	background-color: #fff;}
